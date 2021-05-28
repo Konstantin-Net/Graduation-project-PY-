@@ -10,7 +10,7 @@ class VKFoto:
     def __init__(self, id_vk):
         self.id = id_vk
 
-    def upload_foto(self):      # Функция возвращае словарь с ссылками на фото и из размером
+    def upload_foto(self):      # Функция возвращает словарь с ссылками на фото и их размером
         params = {"access_token": self.token,
                   "v": self.version,
                   "user_id": self.id,
